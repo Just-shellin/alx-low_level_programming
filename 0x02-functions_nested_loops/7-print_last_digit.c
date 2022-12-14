@@ -13,8 +13,8 @@ int print_last_digit(int jay)
 
 	if (xyz < 0)
 	{
-		xyz = (-1 * xyz)
+		xyz = (-1 * xyz);
 	}
-	_putchar(pld + '0');
+	_putchar(xyz + '0');
 	return (xyz);
 }
