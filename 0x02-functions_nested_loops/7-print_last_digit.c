@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - prints last digit of number
- * @Jay: last digit
+ * @jay: last digit
  * Return: value of last digit
  */
 int print_last_digit(int jay)
