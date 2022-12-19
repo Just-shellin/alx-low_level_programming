@@ -8,6 +8,8 @@
  * @n: value to be swapped 
  *
  * Return: always be void;
- *
- * void reset_to_98(int *n)
- * {*n=98}
+ */
+ void reset_to_98(int *n)
+{
+	*n=98
+}
