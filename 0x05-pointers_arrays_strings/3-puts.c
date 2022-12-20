@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _puts - function that prints a string, 
+ * _puts - function that prints a string,
  * followed by a new line, to stdout
- * @str: string to be printed 
+ * @str: string to be printed
  *
  * Return: void
  */
