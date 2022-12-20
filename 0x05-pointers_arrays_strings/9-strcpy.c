@@ -2,21 +2,19 @@
 #include <stdio.h>
 
 /**
- * print_array - function with two argument
- * @a: first argument pointer int type
- * @n: second argument int type
+ * _strcpy - function with two arguments
+ * @dest: 1st argument char type pointer
+ * @src: 2nd argument char type pointer
  *
- * Return: na
+ * Return: dest
  */
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
-	{
-		printf("%d", *(a + i));
-		if (i < n - 1)
-			printf(", ");
-	}
-	printf("\n");
+	for (i = 0; src[i] != '\0'; i++)
+		dest[i] = src[i];
+	for ( ; i < src[i]; i++)
+		dest[i] = '\0';
+	return (dest);
 }
