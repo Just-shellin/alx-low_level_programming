@@ -5,7 +5,7 @@
  * @a: first integer to be multiplied 
  * @b: other integer to be multiplied
  *
- * Return: The result of multiplication between a param and b param
+ * Return: The result of multiplication between  a integer and b integer
  */
 int mul(int a, int b)
 {
